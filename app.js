@@ -68,10 +68,10 @@ function sendwhatsapp(){
     let message = document.getElementById("message").value;
 
     let url = "https://wa.me/" + phoneNumber + "?text="
-    +'"Name : " '+ name + "%0a"
-    +'"Email : " '+ email + "%0a"
-    +'"Address : " '+ address + "%0a"
-    +'"Message : " '+ message + "%0a%0a"
+    +'Name :  '+ name + "%0a"
+    +'Email :  '+ email + "%0a"
+    +'Address :  '+ address + "%0a"
+    +'Message :  '+ message + "%0a%0a"
 
 
     window.open(url, "_blank").focus();
